@@ -151,4 +151,16 @@
 .text {
     padding: 0 15px;
 }
+.news-header {
+    padding: 15px;
+    font-weight: bold;
+}
+.section-title {
+    display: inline-block;
+    padding-right: 15px;
+}
+.news-header hr {
+    width: 45%;
+    display: inline-block;
+}
 }
