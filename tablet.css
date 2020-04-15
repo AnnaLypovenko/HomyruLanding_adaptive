@@ -1,0 +1,154 @@
+@media (min-width: 768px) {
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+    .aside {
+        width: 31%;
+        margin: 10px;
+        float: left;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+
+    .slogan {
+        color: #999C9E;
+    }
+
+    .banner-section {
+        width: 61%;
+        margin: 15px;
+        float: right;
+
+    }
+
+    .banner {
+        background-color: #596F85;
+        color: #DBDEE6;
+        border-radius: 6px;
+        height: 349px;
+        padding: 20px;
+    }
+
+    .banner-section {
+        position: relative;
+    }
+
+    .img {
+        position: absolute;
+        right: 0;
+        top: 134px;
+        /*z-index: -1;*/
+    }
+
+    .p1 {
+        color: #f26522;
+        font-size: 20px;
+    }
+
+    .p2 {
+        font-size: 14px;
+    }
+
+    .p3 {
+        font-size: 12px;
+        font-style: italic;
+    }
+
+    .banner-section-title {
+        background-color: #e0e0e0;
+        padding: 20px 15px;
+        border-radius: 6px;
+        font-size: 10px;
+    }
+
+    .banner-list li {
+        font-size: 10px;
+        padding: 10px;
+        margin-left: -25px;
+        list-style-type: circle;
+    }
+
+    .banner-button {
+        color: #4673AB;
+        font-weight: bold;
+        margin-top: 30px;
+        padding: 10px 30px;
+        background-color: white;
+        border-radius: 8px;
+    }
+
+    .section-title hr {
+        width: 500px;
+    }
+
+    .card-slider {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    .card {
+        width: 30%;
+        height: 389px;
+        border: 1px solid #DBDEE6;
+        border-radius: 7px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .stock {
+        font-size:46px;
+    }
+    .one-two{
+        background-color: #E9004B;
+        text-align: center;
+        font-weight: bold;
+    }
+.one-two-numbers {
+    font-size: 94px;
+
+}
+.one-two-numbers span {
+    color: white;
+    font-size: 48px;
+    position: absolute;
+    right: -8px;
+}
+.card-bottom {
+    color: #337500;
+    text-align: center;
+    padding-top: 25px;
+}
+.timer img {
+    margin-left: 21%;
+}
+.stock-card-description p {
+    margin-top: 0;
+}
+.yellow {
+    background-color: yellow;
+}
+.yellow-discount {
+    color: black;
+    font-family: "Ink Free";
+    font-size: 75px;
+}
+.order-making {
+    display: flex;
+}
+.order-block {
+    width: 25%;
+}
+/*.text {*/
+/*    width: 45%;*/
+/*}*/
+.text-block {
+    display: flex;
+}
+.text {
+    padding: 0 15px;
+}
+}
