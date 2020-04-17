@@ -168,6 +168,7 @@
     .news-header {
         padding: 15px;
         font-weight: bold;
+        font-size: 28px;
     }
 
     .section-title {
@@ -291,6 +292,64 @@
         text-transform: uppercase;
     }
     .card-big ul {
-        padding: 20px 40px;
+        padding: 4px 24px;
+    }
+    .delivery {
+        border: none;
+        padding: 6px;
+        text-decoration: underline;
+    }
+    .slogan-small {
+        font-size: 8px;
+    }
+    .footer-logo .logo {
+        font-size: xx-large;
+    }
+    .statistics p {
+        color: #DBDEE6;
+        padding-top: 0;
+        font-size: 13px;
+        text-align: left;
+        width: 85%;
+        display: inline-block;
+        margin-top: 0;
+    }
+    .footer-tel .clearfix {
+        clear: none;
+    }
+    .address>p {
+        margin: 4px;
+    }
+    .hidden-in-tablet {
+        display: none;
+    }
+    .information {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+    }
+    /*.information div:nth-child(1) {*/
+    /*    order: 1;*/
+    /*}*/
+    .information div:nth-child(4) {
+        order: 4;
+    }
+    .information div:nth-child(2) {
+        order:4;
+    }
+    /*.information div:nth-child(5) {*/
+    /*    order:3;*/
+    /*}*/
+    .information div:nth-child(6) {
+        order:3;
+    }
+    .footer-logo, .copyright, .BFT, .footer-tel {
+        width: 25%;
+    }
+    .address {
+        padding-top: 15px;
+    }
+    .footer-social {
+        padding: 13px 62px;
     }
 }
