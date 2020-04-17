@@ -1,3 +1,7 @@
+input[checked=true]{
+    border: 10px black solid;
+}
+
 
 body {
     font-family: "Roboto Light", "Roboto Thin", sans-serif;

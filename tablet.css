@@ -99,68 +99,198 @@
         margin: 0 auto;
         position: relative;
     }
+
     .stock {
-        font-size:46px;
+        font-size: 46px;
     }
-    .one-two{
+
+    .one-two {
         background-color: #E9004B;
         text-align: center;
         font-weight: bold;
     }
-.one-two-numbers {
-    font-size: 94px;
 
-}
-.one-two-numbers span {
-    color: white;
-    font-size: 48px;
-    position: absolute;
-    right: -8px;
-}
-.card-bottom {
-    color: #337500;
-    text-align: center;
-    padding-top: 25px;
-}
-.timer img {
-    margin-left: 21%;
-}
-.stock-card-description p {
-    margin-top: 0;
-}
-.yellow {
-    background-color: yellow;
-}
-.yellow-discount {
-    color: black;
-    font-family: "Ink Free";
-    font-size: 75px;
-}
-.order-making {
-    display: flex;
-}
-.order-block {
-    width: 25%;
-}
-/*.text {*/
-/*    width: 45%;*/
-/*}*/
-.text-block {
-    display: flex;
-}
-.text {
-    padding: 0 15px;
-}
-.news-header {
-    padding: 15px;
-    font-weight: bold;
-}
-.section-title {
-    display: inline-block;
-    padding-right: 15px;
-}
-.news-header hr {
-    width: 45%;
-    display: inline-block;
-}
+    .one-two-numbers {
+        font-size: 94px;
+
+    }
+
+    .one-two-numbers span {
+        color: white;
+        font-size: 48px;
+        position: absolute;
+        right: -8px;
+    }
+
+    .card-bottom {
+        color: #337500;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .timer img {
+        margin-left: 21%;
+    }
+
+    .stock-card-description p {
+        margin-top: 0;
+    }
+
+    .yellow {
+        background-color: yellow;
+    }
+
+    .yellow-discount {
+        color: black;
+        font-family: "Ink Free";
+        font-size: 75px;
+    }
+
+    .order-making {
+        display: flex;
+    }
+
+    .order-block {
+        width: 25%;
+    }
+
+    /*.text {*/
+    /*    width: 45%;*/
+    /*}*/
+    .text-block {
+        display: flex;
+    }
+
+    .text {
+        padding: 0 20px;
+    }
+
+    .news-header {
+        padding: 15px;
+        font-weight: bold;
+    }
+
+    .section-title {
+        display: inline-block;
+        padding-right: 15px;
+    }
+
+    .news-header hr {
+        width: 45%;
+        display: inline-block;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    .buying-now {
+        display: flex;
+    }
+
+    .no-border {
+        border: none;
+    }
+
+    .no-border p {
+        padding: 30px 15px;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .bottom {
+        padding-bottom: 33px;
+    }
+
+    .bottom1 {
+        padding-bottom: 20px;
+
+    }
+
+    .no-border img {
+        padding-top: 40px;
+
+    }
+
+    .our-brands {
+        text-align: center;
+    }
+
+    .grey {
+        height: 275px;
+        background-color: #E3E5EB;
+        border-radius: 8px;
+        margin: 20px 20px;
+    }
+
+    .strong-sides {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .circle-image {
+        position: relative;
+        z-index: 101;
+        top: 28px;
+        left: 84px;
+    }
+
+    .circle-image-last {
+        position: relative;
+        z-index: 101;
+        top: 38px;
+        left: 94px;
+    }
+
+    .circle-white {
+        position: absolute;
+        width: 110px;
+    }
+
+    .circle {
+        width: 25%;
+    }
+
+    .circle p {
+        text-align: center;
+        font-size: 13px;
+        margin-top: 60px;
+    }
+
+    .card-big {
+        width: 40%;
+        height: 493px;
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .red {
+        border-radius: 8px;
+        border: 3px solid  #CB0B13;
+    }
+    .green {
+        border-radius: 8px;
+        border: 3px solid #16A333;
+    }
+    .choose {
+        display: flex;
+        justify-content: space-between;
+    }
+    .red-header {
+        color: white;
+        background-color: #CB0B13;
+        height: 77px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .green-header {
+        color: white;
+        background-color: #16A333;
+        height: 77px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .card-big ul {
+        padding: 20px 40px;
+    }
 }
