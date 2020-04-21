@@ -164,21 +164,27 @@
     .text {
         padding: 0 20px;
     }
-
+.news-header-flex {
+    display: flex;
+}
     .news-header {
         padding: 15px;
         font-weight: bold;
         font-size: 28px;
+        display: inline-block;
     }
 
     .section-title {
-        display: inline-block;
         padding-right: 15px;
+        font-size: 28px;
+        font-weight: bolder;
     }
 
-    .news-header hr {
-        width: 45%;
+    .news-header-flex hr {
+        width: 40%;
         display: inline-block;
+        margin-top: 52px;
+        height: min-content;
     }
 
     .hidden {
@@ -218,7 +224,7 @@
     }
 
     .grey {
-        height: 275px;
+        height: 345px;
         background-color: #E3E5EB;
         border-radius: 8px;
         margin: 20px 20px;
@@ -227,36 +233,39 @@
     .strong-sides {
         display: flex;
         justify-content: space-around;
+        position: relative;
+        top: -258px;
 
     }
 
     .circle-image {
         position: relative;
         z-index: 101;
-        top: 28px;
-        left: 84px;
+        top: 33px;
+        left: 38px;
     }
 
     .circle-image-last {
         position: relative;
         z-index: 101;
-        top: 38px;
-        left: 94px;
+        top: 40px;
+        left: 30px;
     }
 
-    .circle-white {
-        position: absolute;
-        width: 110px;
-    }
+
 
     .circle {
-        width: 25%;
+        width: 125px;
+        height: 125px;
+        border-radius: 65px;
+        background-color: white;
     }
 
     .circle p {
         text-align: center;
         font-size: 13px;
-        margin-top: 60px;
+        margin-top: 88px;
+        font-weight: bolder;
     }
 
     .card-big {
@@ -283,6 +292,7 @@
         height: 77px;
         text-align: center;
         text-transform: uppercase;
+        font-size: 18px;
     }
     .green-header {
         color: white;
@@ -290,6 +300,7 @@
         height: 77px;
         text-align: center;
         text-transform: uppercase;
+        font-size: 18px;
     }
     .card-big ul {
         padding: 4px 24px;
