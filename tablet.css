@@ -6,6 +6,41 @@
         float: left;
     }
 
+    .icons {
+        width: 196px;
+        margin-top: 20px;
+        height: 58px;
+        z-index: -1;
+        border-radius: 20px;
+        background-color: #DBDEE6;
+        padding: 6px;
+    }
+    .search {
+        margin-top: 10px;
+        margin-left: -83px;
+        margin-right: 30px;
+    }
+
+    .enter {
+        float: left;
+        padding-right: 45px;
+    }
+    .cart {
+        float: right;
+        margin-right: 70px;
+    }
+    .fa-heart:before {
+        color: red;
+        font-size: 19px;
+    }
+    .fa-sync:before {
+        color: limegreen;
+        font-size: 19px;
+    }
+    .favorits div {
+       display: inline-block;
+
+    }
     h3 {
         font-size: 21px;
     }
@@ -20,7 +55,9 @@
         float: right;
 
     }
-
+.favorits a p {
+ display: inline-block;
+}
     .banner {
         background-color: #596F85;
         color: #DBDEE6;
@@ -164,9 +201,11 @@
     .text {
         padding: 0 20px;
     }
-.news-header-flex {
-    display: flex;
-}
+
+    .news-header-flex {
+        display: flex;
+    }
+
     .news-header {
         padding: 15px;
         font-weight: bold;
@@ -253,7 +292,6 @@
     }
 
 
-
     .circle {
         width: 125px;
         height: 125px;
@@ -267,27 +305,33 @@
         margin-top: 88px;
         font-weight: bolder;
     }
-.bordered {
-    border: 1px solid lightgrey;
-}
+
+    .bordered {
+        border: 1px solid lightgrey;
+    }
+
     .card-big {
         width: 40%;
         height: fit-content;
         display: inline-block;
         margin: 0 auto;
     }
+
     .red {
         border-radius: 8px;
-        border: 3px solid  #CB0B13;
+        border: 3px solid #CB0B13;
     }
+
     .green {
         border-radius: 8px;
         border: 3px solid #16A333;
     }
+
     .choose {
         display: flex;
         justify-content: space-between;
     }
+
     .red-header {
         color: white;
         background-color: #CB0B13;
@@ -303,35 +347,43 @@
         text-transform: uppercase;
         font-size: 18px;
     }
+
     .green-header p {
         padding: 27px;
         margin: 0;
     }
+
     .red-header p {
         padding: 17px 0;
         margin: 0;
     }
+
     .card-big ul {
         padding: 25px;
         font-size: 17px;
     }
+
     .circe-number-flex {
         display: flex;
         justify-content: space-around;
     }
+
     .number-orange {
         color: orange;
     }
+
     .big {
         font-size: 90px;
         font-weight: 700;
         padding: 8px 10px;
     }
+
     .medium {
         font-weight: 700;
         font-size: 59px;
         padding: 24px 5px;
     }
+
     .small {
         font-size: 45px;
         font-weight: 700;
@@ -339,6 +391,7 @@
         position: relative;
         padding-top: 18px;
     }
+
     .small span {
         top: 53px;
         font-size: 24px;
@@ -346,26 +399,32 @@
         right: 55px;
     }
 
-    .working-rules{
+    .working-rules {
         margin-top: 100px;
     }
+
     .circle, .bordered p {
         margin-top: 30px;
     }
+
     .delivery {
         border: none;
         padding: 6px;
         text-decoration: underline;
     }
+
     .tablet-block {
         height: 1066px;
     }
+
     .slogan-small {
         font-size: 8px;
     }
+
     .footer-logo .logo {
         font-size: xx-large;
     }
+
     .statistics p {
         color: #DBDEE6;
         padding-top: 0;
@@ -375,44 +434,55 @@
         display: inline-block;
         margin-top: 0;
     }
+
     .footer-tel .clearfix {
         clear: none;
     }
-    .address>p {
+
+    .address > p {
         margin: 4px;
     }
+
     ul li span {
         font-weight: bold;
     }
+
     .hidden-in-tablet {
         display: none;
     }
+
     .information {
         display: flex;
         flex-flow: wrap;
         justify-content: space-between;
     }
+
     /*.information div:nth-child(1) {*/
     /*    order: 1;*/
     /*}*/
     .information div:nth-child(4) {
         order: 4;
     }
+
     .information div:nth-child(2) {
-        order:4;
+        order: 4;
     }
+
     /*.information div:nth-child(5) {*/
     /*    order:3;*/
     /*}*/
     .information div:nth-child(6) {
-        order:3;
+        order: 3;
     }
+
     .footer-logo, .copyright, .BFT, .footer-tel {
         width: 25%;
     }
+
     .address {
         padding-top: 15px;
     }
+
     .footer-social {
         padding: 13px 62px;
     }

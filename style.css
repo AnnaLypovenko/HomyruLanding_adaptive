@@ -4,7 +4,7 @@ input[checked=true]{
 
 
 body {
-    font-family: "Roboto Light", "Roboto Thin", sans-serif;
+    font-family: Roboto Light, Roboto Thin, sans-serif;
     margin: 0 auto;
 }
 
@@ -45,6 +45,7 @@ font-size: smaller;
 h1 {
     margin: 10px auto;
     font-weight: 400;
+    font-size: 61px;
 }
 
 a {
@@ -110,15 +111,19 @@ p.viber {
     color: lightgrey;
 }
 
-.fas {
+.left-arr img{
+    position: absolute;
+    left: 4px;
+    color: orange;
+}
+.right-arr img
+{
     position: absolute;
     left: 4px;
     color: orange;
 }
 
-.fa-circle, .fas:hover {
 
-}
 .hidden {
     display: none;
 }
