@@ -234,7 +234,7 @@
         display: flex;
         justify-content: space-around;
         position: relative;
-        top: -258px;
+        bottom: 281px;
 
     }
 
@@ -267,10 +267,12 @@
         margin-top: 88px;
         font-weight: bolder;
     }
-
+.bordered {
+    border: 1px solid lightgrey;
+}
     .card-big {
         width: 40%;
-        height: 493px;
+        height: fit-content;
         display: inline-block;
         margin: 0 auto;
     }
@@ -289,26 +291,74 @@
     .red-header {
         color: white;
         background-color: #CB0B13;
-        height: 77px;
         text-align: center;
         text-transform: uppercase;
         font-size: 18px;
     }
+
     .green-header {
         color: white;
         background-color: #16A333;
-        height: 77px;
         text-align: center;
         text-transform: uppercase;
         font-size: 18px;
     }
+    .green-header p {
+        padding: 27px;
+        margin: 0;
+    }
+    .red-header p {
+        padding: 17px 0;
+        margin: 0;
+    }
     .card-big ul {
-        padding: 4px 24px;
+        padding: 25px;
+        font-size: 17px;
+    }
+    .circe-number-flex {
+        display: flex;
+        justify-content: space-around;
+    }
+    .number-orange {
+        color: orange;
+    }
+    .big {
+        font-size: 90px;
+        font-weight: 700;
+        padding: 8px 10px;
+    }
+    .medium {
+        font-weight: 700;
+        font-size: 59px;
+        padding: 24px 5px;
+    }
+    .small {
+        font-size: 45px;
+        font-weight: 700;
+        text-align: center;
+        position: relative;
+        padding-top: 18px;
+    }
+    .small span {
+        top: 53px;
+        font-size: 24px;
+        position: absolute;
+        right: 55px;
+    }
+
+    .working-rules{
+        margin-top: 100px;
+    }
+    .circle, .bordered p {
+        margin-top: 30px;
     }
     .delivery {
         border: none;
         padding: 6px;
         text-decoration: underline;
+    }
+    .tablet-block {
+        height: 1066px;
     }
     .slogan-small {
         font-size: 8px;
@@ -330,6 +380,9 @@
     }
     .address>p {
         margin: 4px;
+    }
+    ul li span {
+        font-weight: bold;
     }
     .hidden-in-tablet {
         display: none;
