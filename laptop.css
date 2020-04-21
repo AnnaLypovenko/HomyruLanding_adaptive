@@ -1,1 +1,16 @@
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:980px) { /* big landscape tablets, laptops, and desktops */
+
+.cloud {
+
+    border-radius: 53px;
+    border: 1px solid lightgrey;
+    width: 175px;
+}
+.cloud a p {
+    margin-top: 40px;
+    font-size: 18px;
+
+    text-align: center;
+    padding: 30px 40px;
+}
+}

@@ -5,6 +5,9 @@
         margin: 10px;
         float: left;
     }
+    h1 {
+        font-size: 61px;
+    }
 
     .icons {
         width: 196px;
