@@ -47,7 +47,9 @@ h1 {
     font-weight: 400;
     font-size: 40px;
 }
-
+.for-laptop-only {
+    display: none;
+}
 a {
     color: blue;
 }

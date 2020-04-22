@@ -5,6 +5,7 @@
         margin: 10px;
         float: left;
     }
+
     h1 {
         font-size: 61px;
     }
@@ -18,6 +19,7 @@
         background-color: #DBDEE6;
         padding: 6px;
     }
+
     .search {
         margin-top: 10px;
         margin-left: -83px;
@@ -28,22 +30,27 @@
         float: left;
         padding-right: 45px;
     }
+
     .cart {
         float: right;
         margin-right: 70px;
     }
+
     .fa-heart:before {
         color: red;
         font-size: 19px;
     }
+
     .fa-sync:before {
         color: limegreen;
         font-size: 19px;
     }
+
     .favorits div {
-       display: inline-block;
+        display: inline-block;
 
     }
+
     h3 {
         font-size: 21px;
     }
@@ -58,9 +65,13 @@
         float: right;
 
     }
-.favorits a p {
- display: inline-block;
-}
+    .hidden.for-laptop-only {
+        display: none;
+    }
+    .favorits a p {
+        display: inline-block;
+    }
+
     .banner {
         background-color: #596F85;
         color: #DBDEE6;

@@ -1,16 +1,55 @@
-@media (min-width:980px) { /* big landscape tablets, laptops, and desktops */
+@media (min-width: 980px) {
+    /* big landscape tablets, laptops, and desktops */
+    .cloud {
 
-.cloud {
+        border-radius: 53px;
+        border: 1px solid lightgrey;
+        width: 175px;
+    }
 
-    border-radius: 53px;
-    border: 1px solid lightgrey;
-    width: 175px;
-}
-.cloud a p {
-    margin-top: 40px;
-    font-size: 18px;
+    .cloud a p {
+        margin-top: 40px;
+        font-size: 18px;
 
-    text-align: center;
-    padding: 30px 40px;
-}
+        text-align: center;
+        padding: 30px 40px;
+    }
+
+    .hidden.for-laptop-only {
+        display: block;
+    }
+
+    .for-laptop-only {
+        display: block;
+    }
+
+    .card {
+        width: 22%;
+    }
+
+    .purple-discount {
+        background-color: #890978;
+
+    }
+
+    .sitehere-style-3dtext {
+        font-family: Garamond, serif;
+        line-height: 1em;
+        color: #f09e11;
+        font-weight: bold;
+        font-size: 113px;
+        text-shadow: 0px 0px 0 rgb(190, 108, -33), 1px 1px 0 rgb(183, 101, -40), 2px 2px 0 rgb(175, 93, -48), 3px 3px 0 rgb(168, 86, -55), 4px 4px 0 rgb(161, 79, -62), 5px 5px 0 rgb(154, 72, -69), 6px 6px 0 rgb(147, 65, -76), 7px 7px 0 rgb(139, 57, -84), 8px 8px 0 rgb(132, 50, -91), 9px 9px 0 rgb(125, 43, -98), 10px 10px 0 rgb(118, 36, -105), 11px 11px 0 rgb(111, 29, -112), 12px 12px 0 rgb(103, 21, -120), 13px 13px 0 rgb(96, 14, -127), 14px 14px 0 rgb(89, 7, -134), 15px 15px 0 rgb(82, 0, -141), 16px 16px 0 rgb(75, -7, -148), 17px 17px 0 rgb(67, -15, -156), 18px 18px 0 rgb(60, -22, -163), 19px 19px 0 rgb(53, -29, -170), 20px 20px 0 rgb(46, -36, -177), 21px 21px 20px rgba(0, 0, 0, 0.25), 21px 21px 1px rgba(0, 0, 0, 0.5), 0px 0px 20px rgba(0, 0, 0, .2);
+    }
+
+    .sitehere-style-3dtext span {
+        position: relative;
+        left: -37px;
+        padding-left: -6px;
+        font-size: 18px;
+        color: orange;
+    }
+     .for-laptop-only .bottom {
+         padding-top: 20px;
+         padding-bottom: 0px;
+    }
 }
