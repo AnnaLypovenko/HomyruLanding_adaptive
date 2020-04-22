@@ -1,7 +1,84 @@
 input[checked=true]{
     border: 10px black solid;
 }
+#menu__toggle {
+    opacity: 0;
+}
 
+#menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+}
+
+.menu__btn {
+    width: 26px;
+    height: 26px;
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 35px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: orangered;
+    transition-duration: .25s;
+}
+.menu__btn > span::before {
+    content: '';
+    top: -8px;
+}
+.menu__btn > span::after {
+    content: '';
+    top: 8px;
+}
+
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
+}
+
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+}
+.menu__item:hover {
+    background-color: #CFD8DC;
+}
 
 body {
     font-family: Roboto Light, Roboto Thin, sans-serif;
@@ -15,21 +92,21 @@ body {
     height: 30px;
     background-color: #040D0D;
 }
-.navbar_menu {
+.menu__box {
     display: none;
     position: absolute;
     padding-left: 0;
     padding-top: 13px;
 }
-.navbar .navbar_menu:hover {
+.navbar .menu__box:hover {
     display: block;
 }
 
-.navbar_menu a {
+.menu__box a {
     text-decoration: none;
     color: white;
 }
-.navbar_menu li {
+.menu__box li {
    list-style-type: none;
 font-size: smaller;
     background-color: #040D0D;
@@ -41,7 +118,10 @@ font-size: smaller;
 .icons img {
     padding-left: 20px;
 }
-
+.menu {
+   margin: -8px 47px;
+    color: white;
+}
 h1 {
     margin: 10px auto;
     font-weight: 400;
@@ -115,14 +195,18 @@ p.viber {
     color: lightgrey;
 }
 
-.left-arr img{
-    position: absolute;
-    left: 4px;
+.left-arr {
+    width: 35px;
+    height: 35px;
+    border-radius: 60px;
+    border: 2px solid lightgrey;
     color: orange;
 }
-.right-arr img
-{
-    position: absolute;
+.right-arr
+{ width: 35px;
+    height: 35px;
+    border-radius: 60px;
+    border: 2px solid lightgrey;
     left: 4px;
     color: orange;
 }
@@ -292,9 +376,7 @@ p.viber {
     float: left;
     width: 50%;
 }
-.footer-tel {
-    /*text-align: right;*/
-}
+
 .clearfix {
     clear: both;
 }
