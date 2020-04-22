@@ -101,15 +101,18 @@
     }
 
     .p3 {
-        font-size: 12px;
+        font-size: 16px;
         font-style: italic;
+        font-weight: bold;
+    }
+    .desktop-only {
+        display: none;
     }
 
     .banner-section-title {
         background-color: #e0e0e0;
         padding: 20px 15px;
         border-radius: 6px;
-        font-size: 10px;
     }
 
     .banner-list li {

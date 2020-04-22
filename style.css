@@ -64,7 +64,9 @@ a {
     color: white;
     font-weight: lighter;
 }
-
+.desktop-only {
+    display: none;
+}
 .logo span {
     color: #FF5816;
     background-color: #DBDEE6;

@@ -18,8 +18,10 @@
         border-top: 10px solid white;
         bottom: -19px;
     }
-
-.cloud a p {
+    .desktop-only {
+        display: none;
+    }
+    .cloud a p {
         margin-top: 19px;
         font-size: 18px;
         text-align: center;

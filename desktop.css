@@ -1,0 +1,32 @@
+@media (min-width: 1281px) {
+    /* hi-res laptops and desktops */
+    .nav-bar-orange {
+        background-color: #FF5816;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 15px;
+        border-radius: 8px;
+    }
+.desktop-only {
+    display: block;
+}
+    .nav-bar-orange li {
+        display: inline-block;
+        font-size: 13px;
+        padding: 10px;
+    }
+     label {
+        border-radius: 4px;
+        background-color: #FF5816;
+         padding: 5px 10px;
+         color: white;
+    }
+     input {
+         background-color: #eeeeee;
+         border-radius: 4px;
+         padding: 7px;
+         border: none;
+     }
+
+}
