@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="desktop.css">
 </head>
 <body>
+
 <header>
+
     <nav class="navbar">
 
         <div class="hamburger-menu">
@@ -22,7 +24,7 @@
                 <span></span>
                 <p class="menu">Mеню</p>
             </label>
-            <ul class="menu__box">
+            <ul class="menu__box wrapper">
                 <li><a class="menu__item" href="#">Каталог</a></li>
                 <li><a class="menu__item" href="#">О компании</a></li>
                 <li><a class="menu__item" href="#">Оплата и доставка</a></li>
@@ -34,7 +36,7 @@
             </ul>
         </div>>
     </nav>
-    <div class="header">
+    <div class="header wrapper">
         <div class="homy_part">
             <p>Ваш регион: <a href="">Москва</a></p>
             <h1 class="logo">HO<span>MY</span>RU</h1>
@@ -66,7 +68,7 @@
             <a class="enter" href=""><p>Войти</p></a>
             <a class="your-cab" href=""><p>Личный кабинет</p></a>
             <div class="icons">
-                <img class="search" src="images/search@1X.png"/>
+                <img class="search hidden-in-desctop" src="images/search@1X.png"/>
                 <img src="images/carr1@1X (1).png"/>
                 <span class="hidden-in-tablet">10</span>
                 <div class="cart hidden">
@@ -92,10 +94,10 @@
         <li>ЭЛЕКТРОННЫЕ ЗАМКИ</li>
         <li>ДОМОФОННЫЕ СИСТЕМЫ</li>
         <li>СИСТЕМЫ ЗАПИСИ ТЕЛЕФОННЫХ РАЗГОВОРОВ</li>
-        <li>СИСТЕМЫ ЗАПИСИ ТЕЛЕФОННЫХ РАЗГОВОРОВ</li>
+        <li>СЕТЕВОЕ ОБОРУДОВАНИЕ</li>
     </ul>
 </header>
-<main>
+<main class="wrapper">
     <aside class="aside hidden">
         <h3 class=news-header>НОВОСТИ КОМПАНИИ</h3>
         <hr>
@@ -405,11 +407,11 @@
         </div>
 
 
-        <div class="news-header-flex">
+        <div class="news-header-flex hidden">
             <p class="news-header">5 ПРИЧИН ВЫБРАТЬ НАШУ КОМПАНИЮ</p>
             <hr/>
         </div>
-        <div class="choose">
+        <div class="choose hidden">
             <div class="card-big red">
                 <div class="red-header">
                     <!--                    <i class="fas fa-times"></i>-->
@@ -472,11 +474,11 @@
         </div>
     </div>
 
-    <div class="news-header-flex">
+    <div class="news-header-flex hidden">
         <p class="news-header">МЫ В ЦИФРАХ</p>
         <hr/>
     </div>
-    <div class="circe-number-flex">
+    <div class="circe-number-flex hidden">
         <div class="circle bordered">
             <div class="number-orange big">10</div>
             <p>10 ЛЕТ НА РЫНКЕ</p>
@@ -560,13 +562,14 @@
     </section>
 </main>
 <footer>
-    <section class="footer-social hidden-in-tablet">
+    <article class="footer-social">
+    <section class="hidden-in-tablet">
         <div class="delivery">Доставка и оплата<span> > </span></div>
         <div class="delivery">Гарантии и возврат<span> > </span></div>
         <div class="delivery">Техподдержка<span> > </span></div>
         <div class="delivery">Контакты<span> > </span></div>
     </section>
-    <section class="information">
+    <section class="information wrapper">
         <div class="footer-logo">
             <p>Ваш регион: <a href="">Москва</a></p>
             <h1 class="logo">HO<span>MY</span>RU</h1>
@@ -588,7 +591,7 @@
             <p>Перепечатка материалов возможна только с активной ссылкой на homy.ru</p>
         </div>
 
-        <div class="address">
+        <div class="address hidden">
             <p>г. Москва, Зеленоград,</p>
             <p>Панфиловский пр., дом 8,</p>
             <p>строение 1</p>
@@ -603,12 +606,16 @@
         <div class="BFT hidden-in-tablet">
             <img src="images/bft@1X.png"/></div>
     </section>
+    </article>
     <section class="footer-bottom">
-        <div class="statistics hidden"><p>Все описания и характеристики товаров носят информационный характер и могут
+        <div class="statistics wrapper"><p class="hidden">Все описания и характеристики товаров носят информационный характер и могут
             отличаться от представленных
             в технической документации производителей. Уточняйте информацию у наших менеджеров.
-        </p><img src="images/statistics.png"/></div>
+        </p>
+            <img src="images/statistics.png"/>
+        </div>
     </section>
 </footer>
+</div>
 </body>
 </html>

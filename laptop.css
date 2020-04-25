@@ -3,9 +3,10 @@
     .cloud {
         border-radius: 19px;
         border: 1px solid lightgrey;
-        width: 126px;
-        height: 75px;
+        width: 112px;
+        height: 72px;
         position: relative;
+        margin-top: 15px;
     }
     .cloud::before, .cloud::after {
         content: '';
@@ -23,7 +24,7 @@
     }
     .cloud a p {
         margin-top: 19px;
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
     }
 
@@ -64,4 +65,7 @@
          padding-top: 20px;
          padding-bottom: 0px;
     }
+     .middle-header-part {
+         margin-top: 15px;
+     }
 }

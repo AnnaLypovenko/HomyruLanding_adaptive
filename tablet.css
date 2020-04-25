@@ -216,7 +216,7 @@
     }
 
     .text {
-        padding: 0 20px;
+        padding: 30px 10px;
     }
 
     .news-header-flex {
@@ -231,8 +231,6 @@
     }
 
     .section-title {
-        padding-right: 15px;
-        font-size: 28px;
         font-weight: bolder;
     }
 
@@ -328,7 +326,7 @@
     }
 
     .card-big {
-        width: 40%;
+        width: 46%;
         height: fit-content;
         display: inline-block;
         margin: 0 auto;

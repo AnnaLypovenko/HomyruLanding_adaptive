@@ -1,6 +1,7 @@
-input[checked=true]{
-    border: 10px black solid;
-}
+/*input[checked=true]{*/
+/*    border: 10px black solid;*/
+/*}*/
+
 #menu__toggle {
     opacity: 0;
 }
@@ -50,29 +51,26 @@ input[checked=true]{
     top: 8px;
 }
 
+
 .menu__box {
-    display: block;
-    position: fixed;
     visibility: hidden;
-    top: 0;
-    left: -100%;
-    width: 300px;
-    height: 100%;
-    margin: 0;
-    padding: 80px 0;
-    list-style: none;
+    display: block;
+    margin: 7px 0;
     background-color: #ECEFF1;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
     transition-duration: .25s;
+    position: absolute;
+    padding-left: 0;
+    z-index: 100;
+    left: 0;
+    right: 0;
 }
 
 .menu__item {
     display: block;
-    padding: 12px 24px;
+    padding: 8px 0;
     color: #333;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
     text-decoration: none;
     transition-duration: .25s;
 }
@@ -84,7 +82,9 @@ body {
     font-family: Roboto Light, Roboto Thin, sans-serif;
     margin: 0 auto;
 }
+.header {
 
+}
 .navbar {
     display: flex;
     justify-content: center;
@@ -92,12 +92,7 @@ body {
     height: 30px;
     background-color: #040D0D;
 }
-.menu__box {
-    display: none;
-    position: absolute;
-    padding-left: 0;
-    padding-top: 13px;
-}
+
 .navbar .menu__box:hover {
     display: block;
 }

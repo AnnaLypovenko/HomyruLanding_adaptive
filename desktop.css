@@ -1,11 +1,16 @@
 @media (min-width: 1281px) {
     /* hi-res laptops and desktops */
+    .wrapper {
+        width: 1125px;
+        margin: 0 auto;
+    }
     .nav-bar-orange {
         background-color: #FF5816;
         color: white;
         display: flex;
-        justify-content: space-between;
-        margin: 0 15px;
+        justify-content: flex-end;
+        margin: 0 auto;
+        width: 1085px;
         border-radius: 8px;
     }
     .nav-bar-orange .desktop-only {
@@ -13,10 +18,11 @@
 }
     .header .desktop-only{
         display: block;
+        margin-top: 15px;
     }
     .nav-bar-orange li {
         display: inline-block;
-        font-size: 13px;
+        font-size: 12px;
         padding: 10px;
     }
      .desktop-only  label {
@@ -31,5 +37,15 @@
          padding: 7px;
          border: none;
      }
+    .circe-number-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    .statistics p {
+        width: 92%;
+    }
+    .hidden-in-desctop {
+        display: none;
+    }
 
 }
