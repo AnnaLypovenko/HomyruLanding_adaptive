@@ -48,7 +48,6 @@
 
     .favorits div {
         display: inline-block;
-
     }
 
     h3 {
@@ -88,7 +87,6 @@
         position: absolute;
         right: 0;
         top: 134px;
-        /*z-index: -1;*/
     }
 
     .p1 {
@@ -208,9 +206,6 @@
         width: 25%;
     }
 
-    /*.text {*/
-    /*    width: 45%;*/
-    /*}*/
     .text-block {
         display: flex;
     }
@@ -472,9 +467,6 @@
         justify-content: space-between;
     }
 
-    /*.information div:nth-child(1) {*/
-    /*    order: 1;*/
-    /*}*/
     .information div:nth-child(4) {
         order: 4;
     }
@@ -483,9 +475,6 @@
         order: 4;
     }
 
-    /*.information div:nth-child(5) {*/
-    /*    order:3;*/
-    /*}*/
     .information div:nth-child(6) {
         order: 3;
     }

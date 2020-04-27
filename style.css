@@ -48,7 +48,6 @@
     top: 8px;
 }
 
-
 .menu__box {
     visibility: hidden;
     background-color: #ECEFF1;
@@ -176,9 +175,7 @@ p.tel {
 p.viber {
     font-size: medium;
 }
-/*.section-title>*:nth-child(3){*/
-/*    align-self: stretch;*/
-/*}*/
+
 .fa-circle {
     position: relative;
     margin-top: 14px;
