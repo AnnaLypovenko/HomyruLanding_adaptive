@@ -41,10 +41,8 @@
         display: flex;
         justify-content: space-between;
     }
-    .statistics p {
-        width: 92%;
-    }
-    .hidden-in-desctop {
+
+    .hidden-in-desktop {
         display: none;
     }
 
