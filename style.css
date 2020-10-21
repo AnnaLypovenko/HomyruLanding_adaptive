@@ -365,7 +365,6 @@ p.viber {
 }
 .footer-logo, .footer-tel {
     float: left;
-    width: 50%;
 }
 
 .clearfix {
@@ -397,7 +396,6 @@ text-align: center;
 .copyright {
 
     display: inline-block;
-    width: 50%;
 }
 .BFT {
     float: right;
